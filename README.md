@@ -54,6 +54,7 @@ my-react-app/
 │
 ├── package.json
 └── README.md
+
 ⚙️ Installation & Setup
 1️⃣ Clone repository
 git clone https://github.com/CherryMT/game-store-website.git
@@ -103,5 +104,3 @@ Organizing a full-stack project structure
 Phạm Nguyễn Minh Trí
 GitHub: https://github.com/CherryMT
 
-Minh
-GitHub: https://github.com/CherryMT
