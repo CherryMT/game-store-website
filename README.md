@@ -59,12 +59,12 @@ my-react-app/
 1️⃣ Clone repository
 git clone https://github.com/CherryMT/game-store-website.git
 cd game-store-website
+
 2️⃣ Setup Backend
 cd server
 npm install
 
 Create .env file inside server/:
-
 DB_HOST=localhost
 DB_USER=your_username
 DB_PASSWORD=your_password
@@ -72,8 +72,8 @@ DB_NAME=your_database
 PORT=5000
 
 Run server:
-
 node server.js
+
 3️⃣ Setup Frontend
 npm install
 npm run dev
