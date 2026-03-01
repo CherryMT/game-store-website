@@ -1,16 +1,107 @@
-# React + Vite
+🎮 Game Store Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application that allows users to explore game listings with detailed information and gameplay images. The project simulates a modern game distribution platform interface.
 
-Currently, two official plugins are available:
+🚀 Tech Stack
+Frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ReactJS
 
-## React Compiler
+JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tailwind CSS
 
-## Expanding the ESLint configuration
+Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Backend
+
+Node.js
+
+ExpressJS
+
+MySQL
+
+✨ Features
+
+Display game list dynamically from backend API
+
+Game detail page with:
+
+Banner image
+
+Cover image
+
+Multiple gameplay images
+
+Search functionality
+
+RESTful API integration
+
+Responsive UI design
+
+📁 Project Structure
+my-react-app/
+│
+├── public/
+├── server/
+│   ├── server.js
+│   └── upload/
+│
+├── src/
+│   ├── Components/
+│   ├── Hooks/
+│   └── App.jsx
+│
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone repository
+git clone https://github.com/CherryMT/game-store-website.git
+cd game-store-website
+2️⃣ Setup Backend
+cd server
+npm install
+
+Create .env file inside server/:
+
+DB_HOST=localhost
+DB_USER=your_username
+DB_PASSWORD=your_password
+DB_NAME=your_database
+PORT=5000
+
+Run server:
+
+node server.js
+3️⃣ Setup Frontend
+npm install
+npm run dev
+📌 API Example
+
+Example endpoint:
+
+GET /api/games
+
+Returns game data including banner, cover, and gameplay images.
+
+🎯 Project Purpose
+
+This project was built to practice:
+
+Frontend component architecture
+
+API integration between client and server
+
+CRUD operations with MySQL
+
+Handling multiple images for a single entity
+
+Organizing a full-stack project structure
+
+
+👤 Author
+Phạm Nguyễn Minh Trí
+GitHub: https://github.com/CherryMT
+
+Minh
+GitHub: https://github.com/CherryMT
